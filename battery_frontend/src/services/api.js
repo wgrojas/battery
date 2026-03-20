@@ -1,8 +1,8 @@
 import axios from "axios"
 
 const API = axios.create({
-  // baseURL:"https://battery-monitor-bbb56f9a4ae8.herokuapp.com"
-   baseURL:"http://localhost:5000"
+  baseURL:"https://battery-monitor-bbb56f9a4ae8.herokuapp.com"
+  //  baseURL:"http://localhost:5000"
 })
 
 API.interceptors.request.use((config)=>{
